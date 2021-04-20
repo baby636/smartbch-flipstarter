@@ -1,16 +1,14 @@
 ## The Application
 The application provides a visual interface to the state of the SmartBCH blockchain and display it in a meaningful way. It’s a frontend web application that needs to connect to a node as its backend (or to a backend API in phase2).
 
-The explorer communicates either
-- **[Phase 1]** *Directly to a node*.
-This will allow developers to directly connect to a SmartBCH node. Docker build scripts will be included to allow quick deployment and out-of-the-box usage. Both http and websockets connections to the SmartBCH EVM will be supported. The developer application will also be publicly hosted, which can directly connect to your own node.
-- **[Phase 2 - Not part of this round]** *External API* which can act as an intermediary between the current blockchain state. Using an API like this allows horizontal scaling, which will be needed for a public facing explorer. The core part of the application will however be agnostic of the backend it communicates with and completely follow the JSON-RPC specification. Note that the external API will not be part of phase 1.
+The application will be able to run in two modes, decentralized mode and bonding mode.
 
-The application will be able to run in two modes, developer and explorer mode.
-- **[Phase 1]**
-The developer mode will deliver the core feature set as outlined below in the feature overview.
-- **[Phase 2 - Not part of this round]**
-The explorer mode will expand on the core feature set and will have additional features to provide a richer user experience. Additional features will include contract validation, chain statistics, pricing, token information, archival data and many other kinds of meta data that will have to be stored centrally.
+- **[Phase 1]** *Decentralized*.
+This will allow a user to directly connect to a SmartBCH node. Docker build scripts will be included to allow quick deployment and out-of-the-box usage. Both http and websockets connections to the SmartBCH EVM will be supported. The application will also be deployed staticly and publicly hosted. You will simply need a node to connect to. The decentralized mode will deliver the core feature set as outlined below in the feature overview.
+
+- **[Phase 2 - Not part of this round]** *Bonding mode*
+The application connects to a backend which will act as an intermediary between the current blockchain state. Using an API like this allows horizontal scaling, which will be needed for a public facing explorer. The core part of the application will however be agnostic of the backend it communicates with and completely follow the JSON-RPC specification. Note that the external API will not be part of phase 1. The bonding mode will expand on the core feature set and will have additional features to provide a richer user experience. Additional features will include contract validation, chain statistics, pricing, token information, archival data and many other kinds of meta data that will have to be stored centrally.
+
 
 ## Feature overview (20 BCH)
 The core feature set will at least include:
@@ -46,12 +44,13 @@ The core feature set will at least include:
     - Contract Info (ABI, creation code)
 - Management / Configuration
     - Node connector
+    - Smart contract registration allowing the user to upload the contracts' ABI spec in order to decode transaction inputs and output logs.
     - Token contract / logo registration (locally stored)
     - Address watch list management (locally stored)
     - MetaMask integration
 
 ## Visual design (10 BCH)
-I will hire a professional graphic designer to help design the visual aspect of the application. The goal is to create a fresh, modern and efficient visual design that will transfer over to the second round of this project. Note that the design of the proof of concept application (see below) is temporary and will get a complete overhaul.
+I will hire a professional graphic designer to help design the visual aspect of the application. The goal is to create a fresh, modern and efficient visual design that will transfer over to the second phase of this project. Note that the design of the proof of concept application (see below) is temporary and will get a complete overhaul.
 
 ## Accountability
 I am a professional software developer with over 10 years experience mainly in frontend web development. I have worked on many projects in e-commerce and am experienced in building high traffic web applications that provide a high quality user experience.
@@ -74,12 +73,12 @@ The proof of concept application can be found here:
 **https://smartbch-explorer.web.app/**
 
 ## Budgeting
-For phase 1 I want to realize core feature set. With the ambitous roadmap of the SmartBCH project this tool will be invaluable for Dapp developers and I therfore want to deliver it to them fast.
+For phase 1 I want to realize core feature set. With the ambitous roadmap of the SmartBCH project this tool will be invaluable for any user of the SmartBCH chain and I therefore want to deliver it to them fast.
 
-I am requesting a total of 30 BCH for phase 1. I intend to spend around 300-400 hours in total. This will deliver the developer application and will be expanded upon in phase 2.
+I am requesting a total of 30 BCH for phase 1. I intend to spend around 300-400 hours in total. This will deliver the decentralized application and will be expanded upon in phase 2.
 
 I have reserved 20 BCH for the core application in phase 1. (around 200-300 hours budgetted to complete the feature list in phase 1)
 I have reserved 10 BCH for the visual design. (around 100 hours to create a UI design that can also carry over to phase 2)
 
 ## Phase 2
-As soon as phase 1 has been completed I will start a new funding round for phase 2. Phase 2 will deliver the public facing explorer complete with a scalable Backend API and expanded feature set.
+As soon as phase 1 has been completed I will start a new funding round for phase 2. Phase 2 will deliver the public facing explorer complete with a scalable Backend API and an expanded feature set.
