@@ -1,5 +1,5 @@
 # SmartBCH Blockchain Explorer
-Goal of this project to create an open source, fully featured web based blockchain explorer tailored for the upcoming [SmartBCH sidechain](http://www.smartbch.org). SmartBCH will bring smart contracts to Bitcoin Cash.
+Goal of this project to create an open source, fully featured web-based blockchain explorer tailored for the upcoming [SmartBCH sidechain](http://www.smartbch.org). SmartBCH will bring smart contracts to Bitcoin Cash.
 
 This project will deliver an application that can be used by developers to browse and debug their Dapps on SBCH chains. The developer application will use a regular node as a backend.
 
