@@ -53,13 +53,13 @@ The core feature set will at least include:
 I will hire a professional graphic designer to help design the visual aspect of the application. The goal is to create a fresh, modern and efficient visual design that will transfer over to the second phase of this project. Note that the design of the proof of concept application (see below) is temporary and will get a complete overhaul.
 
 ## Accountability
-I am a professional software developer with over 10 years experience, mainly in frontend web development. I have worked on many projects in e-commerce and am experienced in building high traffic web applications that provide a high quality user experience.
+I am a professional software developer with over 10 years experience, mainly in web development. I have worked on many projects in e-commerce and am experienced in building high traffic web applications that provide a high quality user experience.
 
 I have created a proof of concept application that is available today. This demo already contains a lot of the project fundamentals. So far I have invested around 75 hours.
 
-For better accountability I also decided to divide the work into 2 phases. This phase (phase 1) will aim to complete an explorer with the core feature set that can connect to a node without needing a specialized backend API.
+For better accountability I also decided to divide the work into 2 phases. This phase (phase 1) will aim to complete an explorer with the core feature set that can connect to a node without needing a backend API.
 
-In the second phase I will expand this project to create a full featured, public facing block explorer with expanded functionalities, including specific API that allow horizontal scaling and hosting of the explorer.
+In the second phase I will expand this project to create a full featured, public facing block explorer with expanded functionalities, including backend API that will allow horizontal scaling and hosting of the explorer.
 
 ## Proof of concept
 I have published a proof of concept application which already contains basic functionality:
@@ -75,7 +75,7 @@ The proof of concept application can be found here:
 ## Budgeting
 For phase 1 I want to realize the core feature set. With the ambitious roadmap of the SmartBCH project this tool will be invaluable for any user of the SmartBCH chain and I therefore want to deliver it to them fast.
 
-I am requesting a total of 30 BCH for phase 1. I intend to spend around 300-400 hours in total. This will deliver the decentralized application and will be expanded upon in phase 2.
+I am requesting a total of 30 BCH for phase 1. I intend to spend around 300-400 hours in total. This will deliver the phase 1 application and will be expanded upon in phase 2.
 
 I have reserved 20 BCH for the core application in phase 1 (around 200-300 hours budgetted to complete the feature list in phase 1).
 I have reserved 10 BCH for the visual design (around 100 hours to create a UI design that can also carry over to phase 2).
