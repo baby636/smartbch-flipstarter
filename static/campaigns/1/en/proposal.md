@@ -1,0 +1,83 @@
+## The Application
+The application provides a visual interface to the state of the SmartBCH blockchain and display it in a meaningful way. It’s a frontend web application that needs to connect to a node as it’s backend (or to a backend API in phase2).
+
+The explorer communicates either
+- **[Phase 1]** *Directly to a node*.
+This will allow developers to directly connect to a SmartBCH node. Docker build scripts will be included to allow quick deployment and out of the box usage. Both http and websockets connections to the SmartBCH EVM will be supported. The developer application will also be publicly hosted, which can directly connect to your own node.
+- **[Phase 2 - Not in this round]** *External API* which can act as an intermediary between the current blockchain state. Using an API like this allows for horizontal scaling, which will be needed for a public facing explorer. The core part of the application will however be agnostic of the backend it’s communicating with and completely follow the JSON-RPC specification. Note that the external API will not be part of phase 1.
+
+The application will be able to run in two modes, developer and explorer.
+- **[Phase 1]**
+The developer mode will give the core feature set as outlined below in the feature overview. Intended for dapp developers building on the SmartBCH chain.
+- **[Phase 2 - Not in this round]**
+The explorer mode will expand on the core feature set and will have additional features to give richer user experience. Additional features will include contract validation, chain statistics, pricing, token information, archival data and many other kinds of meta data that will have to be stored centrally.
+
+## Feature overview (20 BCH)
+The core feature set will at least include:
+
+- General navigation with multifunctional search (Address / Transaction / Block / ERC20 Token / ERC721 Token) to provide an easy and intuitive way to find relevant information on the blockchain and allow quick navigation.
+- Overview with latest blocks
+    - Show last mined blocks.
+    - Live updates.
+- Latest transaction overview
+    - Show latest transactions in block
+    - Show distinguished transaction type (contract creation, contract call, token transfers, regular transactions etc)
+    - Live updates
+- Adress watch list overview
+    - Show latest transactions of user tagged addresses
+    - Live updates
+- Block detail view
+    - All relevant details of a specific mined block
+    - Transactions within a block (transfers and contract internal transactions)
+- Address detail view
+    - History of transactions
+    - Token information
+    - Token transactions
+- Transaction detail view
+    - All relevant details of the transaction inlcuding fees/gas.
+    - Transaction Actions
+    - Input Data
+    - Internal transactions
+    - Transaction receipts / logs
+- Contract detail view
+    - Contract transactions overiew
+    - Internal transactions overview
+    - Token overview / Tokens transaferred
+    - Contract Info (ABI, creation code)
+- Management / Configuration
+    - Node connector
+    - Token contract / logo registration (locally stored)
+    - Address watch list management (locally stored)
+    - MetaMask integration
+
+## Visual design (10 BCH)
+I will hire a professional graphic designer to help design the visual aspect of the application. The goal is to create a fresh, modern and efficient visual design that will transfer over to the second round of this project. Note that the design of the proof of concept application (see below) is temporary and will get a complete overhaul.
+
+## Accountability
+I am a professional software developer with over 10 years experience mainly in frontend web development. I have worked on many projects in e-commerce, experienced in building high traffic web applications that provide a high quality user experience.
+
+I have created a Proof of Concept application that is available today. This proof of conecept already containts a lot of the project fundamentals. I so far have invested around 75 hours.
+
+For better accountability I also decided to divide the work in 2 rounds. This round (phase 1) will aim to complete an explorer with the core feature set that can connect to a node without needing a specialized backend API.
+
+In the second round I will extend this project to create a full featured, public facing block explorer with extended functionalities, including specific API that allow horizontal scaling and hosting of the explorer .
+
+## Proof of concept
+I have published a proof of concept application which already contains basic functionality:
+- Application fundamentals
+- Block overview
+- Account overview with transaction overview and simple ERC20 token support
+- Transaction type interpretation (transfer, contract-create, contract-call, token-transfer)
+- Transaction details
+The proof of concept application can be found here: https://smartbch-explorer.web.app/
+
+## Budgeting
+For round 1 I want to quickly realize core feature set. With the ambitous roadmap of the SmartBCH project this tool will be invaluable for Dapp developers and I want to bring it to them fast.
+
+I request a total of 30 BCH for phase 1. I want to spend around 300-400 hours in total. This will deliver the developer application and will be extended upon in phase 2.
+
+I reserved 20 BCH for the core application in phase 1. (around 200-300 hours budgetted to complete the feature list in phase 1)
+I reserved 10 BCH for the visual design. (around 100 hours to create a UI design that can also carry over to phase 2)
+
+## Phase 2
+As soon as phase 1 completes I will start a new funding round for phase 2. Phase 2 will deliver the public facing explorer complete with scalable API and extended feature set.

@@ -75,6 +75,10 @@ class flipstarter {
 
     // Once the page is loaded, initialize flipstarter.
     window.addEventListener("load", this.initialize.bind(this));
+
+    marked.setOptions({
+      smartLists: true,
+    });
   }
 
   async initialize() {

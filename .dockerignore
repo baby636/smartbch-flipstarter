@@ -1,5 +1,5 @@
 node_modules/
-database.db
+# database.db
 .dockerignore
 
 # Git
@@ -7,4 +7,4 @@ database.db
 .gitignore
 
 # Campaign descriptions
-static/campaigns/**/*.md
+# static/campaigns/**/*.md

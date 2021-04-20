@@ -3,10 +3,10 @@
 
 # Compiled files
 README.html
-static/js/application.js
+# static/js/application.js
 
 # Campaign descriptions
-static/campaigns/
+# static/campaigns/
 
 # Dependency directories
 node_modules/
