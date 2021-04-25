@@ -8,3 +8,6 @@ The application can then be extended in a second phase to create a public facing
 The software will be released under the Apache 2.0 license on [github](https://github.com/jay-bch/smartbch-explorer). This means anyone is free to distribute, modify, or otherwise use software for any purpose.
 
 The front-end application will be built written in TypeScript on top the Angular framework, leveraging the [web3.js](https://web3js.readthedocs.io/en/v1.3.4/) library. Web3.js is a wrapper library for JavaScript/TypeScript that provides easy-to-use access to various functionalities of EVM based blockchains allowing rapid development.
+
+# Update (04-25-2021)
+Campaign has been funded! I want to thank everyone who contributed and for the trust you placed in me. I am very motivated by all your support. Follow me on twitter [@SmartBCHScan](https://twitter.com/SmartBCHScan) for project updates. Now let's build our smart future together! 非常感谢你!
